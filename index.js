@@ -36,4 +36,4 @@ const Task = computation => compose(ap, chain, map, fork)(computation)
 Task.of = x => Task((_, resolve) => resolve(x))
 Task.rejected = a => Task((reject, _) => reject(a))
 
-module.exports = Task
+module.exports = { Task }
