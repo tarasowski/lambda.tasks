@@ -1,4 +1,4 @@
-# lambda.task
+# lambda.tasks
 Task data type
 
 * API:
