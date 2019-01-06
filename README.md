@@ -345,7 +345,7 @@ const files = List(['config.json', 'config2.json'])
 
 
 files.traverse(Task.of, fn => readFile(fn)).fork(console.error, x => x.map(x => x + '!!!').fold(x => x))
-``´
+```
 
 ### Example
 
